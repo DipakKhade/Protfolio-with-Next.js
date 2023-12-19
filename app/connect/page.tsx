@@ -99,7 +99,7 @@ const Submission=async(data:FieldValues)=>{
               </label>
               <textarea
          {...register('message')}
-               type="text"
+               
                id="message"
                name="message"
                
