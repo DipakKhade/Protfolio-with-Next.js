@@ -25,7 +25,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
     <h2 className="text-2xl mt-6 md:ml-[44vw] ml-40 font-bold">What I Know</h2>
     <div className="md:flex">
      
-      <div className="md:w-[25vw] w-[80vw] p-4 bg-blue-200 border border-gray-200 rounded-lg mt-8 shadow sm:p-8 ml-4  ">
+      <div className="md:w-[25vw] w-[80vw] p-4 bg-blue-200 border border-gray-200 rounded-lg mt-8 shadow sm:p-8 ml-10  ">
         <div className="flex items-center justify-between mb-4">
           <h5 className="text-xl font-bold leading-none  text-black">
             FrontEnd
@@ -157,10 +157,10 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
           </ul>
         </div>
       </div>
-
+ 
 
       {/*// backend */}
-      <div className="md:w-[25vw] w-[80vw] p-4 bg-blue-200 border border-gray-200 rounded-lg mt-8 shadow sm:p-8 ml-6  ">
+      <div className="md:w-[25vw] w-[80vw] p-4 bg-blue-200 border border-gray-200 rounded-lg mt-8 shadow sm:p-8 ml-10  ">
         <div className="flex items-center justify-between mb-4">
           <h5 className="text-xl font-bold leading-none  text-black">
             BackEnd
@@ -248,7 +248,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
 
 
       {/* //database */}
-      <div className="md:w-[25vw] w-[80vw] p-4 bg-blue-200 border border-gray-200 rounded-lg mt-8 shadow sm:p-8 ml-6  ">
+      <div className="md:w-[25vw] w-[80vw] p-4 bg-blue-200 border border-gray-200 rounded-lg mt-8 shadow sm:p-8 ml-10  ">
         <div className="flex items-center justify-between mb-4">
           <h5 className="text-xl font-bold leading-none  text-black">
             DataBase
@@ -305,7 +305,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
 
 
 {/* Devops */}
-<div className="md:w-[25vw] w-[80vw] p-4 bg-blue-200 border border-gray-200 rounded-lg mt-8 shadow sm:p-8 ml-6  ">
+<div className="md:w-[25vw] w-[80vw] p-4 bg-blue-200 border border-gray-200 rounded-lg mt-8 shadow sm:p-8 ml-10  ">
         <div className="flex items-center justify-between mb-4">
           <h5 className="text-xl font-bold leading-none  text-black">
             Devops
