@@ -20,8 +20,9 @@ const {
 
 
 const Submission=async(data:FieldValues)=>{
+  const domain='https://protfolio-with-next-js-dfx1.vercel.app/'
 
-    const res = await fetch(`${process.env.NEXT_PUBLIC__HOST}/api/users`, {
+    const res = await fetch(`${domain}/api/users`, {
               method: "POST",
               headers: {
                 "content-type": "application/json",

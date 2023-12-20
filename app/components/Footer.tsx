@@ -15,14 +15,15 @@ const Footer: FC<FooterProps> = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
         
         <Link href={'/'} className="flex">
-                <Image src={logo} width={80} alt="logo" className="rounded-full">
-                </Image>
-                <span className="self-center text-xl ml-4 font-semibold whitespace-nowrap">Thanks for Visiting !</span>
+               
+                {/* <span className="self-center md:text-xl ml-4 font-semibold whitespace-nowrap">Thanks for Visiting !</span> */}
 
                 </Link>
             <ul className="flex flex-wrap items-center mt-6 md:mt-0 mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                <li> <Image src={logo} width={50} alt="logo" className="rounded-full">
+                </Image></li>
                 <li>
-                    <Link href={'https://github.com/DipakKhade'} target="_blank" className="hover:underline me-4 md:me-6 text-black">github</Link>
+                    <Link href={'https://github.com/DipakKhade'} target="_blank" className="hover:underline me-4 md:me-6 text-black ml-16">github</Link>
                 </li>
                 <li>
                 <Link href={'https://instagram.com/dipakkhade272?igshid=OGQ5ZDc2ODk2ZA=='} target="_blank" className="hover:underline me-4 md:me-6 text-black">instagram</Link>

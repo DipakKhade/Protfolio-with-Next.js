@@ -2,7 +2,6 @@ import { FC } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../../images/mkbhd22.png";
-import pimg from "../../images/pimg.jpg";
 interface NavbarProps {}
 
 const Navbar: FC<NavbarProps> = () => {
@@ -10,7 +9,7 @@ const Navbar: FC<NavbarProps> = () => {
     
       <div className="navbarfixed flex bg-base-300 z-10 p-2">
         <div className="flex-1">
-          <Link href={"/"} className="btn text-gray-900 btn-ghost text-xl ml-18 cursor-text hover:bg-blue-500">
+          <Link href={"/"} className="btn text-gray-900 btn-ghost md:text-xl ml-18 cursor-text hover:bg-blue-500">
             Dipak Khade
           </Link>
         </div>
