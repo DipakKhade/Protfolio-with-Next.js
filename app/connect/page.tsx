@@ -3,6 +3,7 @@ import { FC, useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { FieldValues, useForm } from 'react-hook-form';
+import toast from "react-hot-toast";
 
 interface ConnectProps {}
 
@@ -22,7 +23,7 @@ const {
 const Submission=async(data:FieldValues)=>{
   const domain='https://protfolio-with-next-js-dfx1.vercel.app/'
 
-    const res = await fetch(`${domain}/api/users`, {
+    const res = await fetch(`${domain}//api/users`, {
               method: "POST",
               headers: {
                 "content-type": "application/json",
@@ -32,7 +33,8 @@ const Submission=async(data:FieldValues)=>{
             });
             let respone = await res.json();
     setIsSubtting(true)
-    alert('Thanks for connecting ...')
+  
+    toast.success('Happy to connect with you')
     reset()
     
 }
