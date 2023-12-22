@@ -18,7 +18,7 @@ const Work: FC<WorkProps> = () => {
     <div className="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
       <div className="space-y-4">
         <span
-          className="  text-white text-xs font-xl inline-flex items-center px-2.5 py-0.5 rounded bg-blue-400">
+          className="  text-white text-xs font-xl inline-flex items-center px-2.5 py-0.5 rounded bg-green-400">
          Cloth Inference
         </span>
         <h3 className="text-2xl font-bold leading-tight">
@@ -27,6 +27,8 @@ const Work: FC<WorkProps> = () => {
         <p className="text-lg font-normal text-gray-500 ">
            Next js 14 , JavaScript , Tailwind CSS , MongoDB , Next Auth
         </p>
+
+        <div className="flex space-x-4 ml-4">
       <Link href={'https://github.com/DipakKhade/ClothInference/tree/main/clothinference'} target="_blank" className="text-white bg-blue-500 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
          
           <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
@@ -36,6 +38,16 @@ const Work: FC<WorkProps> = () => {
               clipRule="evenodd" />
           </svg>
           </Link>
+      <Link href={'https://cloth-inference-cd5c-git-main-dipak-khades-projects.vercel.app/'} target="_blank" className="text-white bg-green-500 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit deployed site
+         
+          <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+            fill="currentColor">
+            <path fillRule="evenodd"
+              d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+              clipRule="evenodd" />
+          </svg>
+          </Link>
+          </div> 
       </div>
 
       <div className="space-y-4">
