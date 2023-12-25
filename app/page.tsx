@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Work from './components/Work'
 import Navbar from './components/Navbar'
 import KonwnThings from './components/KnownThings'

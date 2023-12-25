@@ -44,7 +44,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
                   ></Image>
                 </div>
                 <div className="flex-1 min-w-0 ms-4">
-                  <p className="text-sm font-medium text-gray-800 truncate ">
+                  <p className="text-sm font-medium text-gray-800 truncate hover:pb-2 ease-in-out duration-300">
                     HTML
                   </p>
                 </div>
@@ -61,7 +61,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
                   ></Image>
                 </div>
                 <div className="flex-1 min-w-0 ms-4">
-                  <p className="text-sm font-medium text-gray-800  truncate ">
+                  <p className="text-sm font-medium text-gray-800  truncate hover:pb-2 ease-in-out duration-300">
                     CSS
                   </p>
                 </div>
@@ -78,7 +78,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
                   ></Image>
                 </div>
                 <div className="flex-1 min-w-0 ms-4">
-                  <p className="text-sm font-medium text-gray-800  truncate ">
+                  <p className="text-sm font-medium text-gray-800  truncate hover:pb-2 ease-in-out duration-300">
                     Tailwind
                   </p>
                 </div>
@@ -95,7 +95,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
                   ></Image>
                 </div>
                 <div className="flex-1 min-w-0 ms-4">
-                  <p className="text-sm font-medium text-gray-800  truncate ">
+                  <p className="text-sm font-medium text-gray-800  truncate hover:pb-2 ease-in-out duration-300">
                     JavaScript
                   </p>
                 </div>
@@ -112,7 +112,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
                   ></Image>
                 </div>
                 <div className="flex-1 min-w-0 ms-4">
-                  <p className="text-sm font-medium text-gray-800  truncate">
+                  <p className="text-sm font-medium text-gray-800  truncate hover:pb-2 ease-in-out duration-300">
                     TypeScript
                   </p>
                 </div>
@@ -130,7 +130,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
                   ></Image>
                 </div>
                 <div className="flex-1 min-w-0 ms-4">
-                  <p className="text-sm font-medium text-gray-800  truncate">
+                  <p className="text-sm font-medium text-gray-800  truncate hover:pb-2 ease-in-out duration-300">
                     React js
                   </p>
                 </div>
@@ -148,7 +148,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
                   ></Image>
                 </div>
                 <div className="flex-1 min-w-0 ms-4">
-                  <p className="text-sm font-medium text-gray-800  truncate">
+                  <p className="text-sm font-medium text-gray-800  truncate hover:pb-2 ease-in-out duration-300">
                     Next js 14
                   </p>
                 </div>
@@ -179,7 +179,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
                   ></Image>
                 </div>
                 <div className="flex-1 min-w-0 ms-4">
-                  <p className="text-sm font-medium text-gray-800 truncate ">
+                  <p className="text-sm font-medium text-gray-800 truncate hover:pb-2 ease-in-out duration-300">
                     Node js
                   </p>
                 </div>
@@ -196,7 +196,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
                   ></Image>
                 </div>
                 <div className="flex-1 min-w-0 ms-4">
-                  <p className="text-sm font-medium text-gray-800  truncate ">
+                  <p className="text-sm font-medium text-gray-800  truncate hover:pb-2 ease-in-out duration-300">
                     Express js
                   </p>
                 </div>
@@ -214,7 +214,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
                   ></Image>
                 </div>
                 <div className="flex-1 min-w-0 ms-4">
-                  <p className="text-sm font-medium text-gray-800  truncate ">
+                  <p className="text-sm font-medium text-gray-800  truncate hover:pb-2 ease-in-out duration-300">
                     Next Auth
                   </p>
                 </div>
@@ -230,7 +230,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
                   ></Image>
                 </div>
                 <div className="flex-1 min-w-0 ms-4">
-                  <p className="text-sm font-medium text-gray-800  truncate ">
+                  <p className="text-sm font-medium text-gray-800  truncate hover:pb-2 ease-in-out duration-300">
                     JavaScript
                   </p>
                 </div>
@@ -268,7 +268,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
                   ></Image>
                 </div>
                 <div className="flex-1 min-w-0 ms-4">
-                  <p className="text-sm font-medium text-gray-800 truncate ">
+                  <p className="text-sm font-medium text-gray-800 truncate hover:pb-2 ease-in-out duration-300">
                     MongoDB
                   </p>
                 </div>
@@ -286,7 +286,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
                   ></Image>
                 </div>
                 <div className="flex-1 min-w-0 ms-4">
-                  <p className="text-sm font-medium text-gray-800  truncate ">
+                  <p className="text-sm font-medium text-gray-800  truncate hover:pb-2 ease-in-out duration-300">
                     MySql
                   </p>
                 </div>
@@ -325,7 +325,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
                   ></Image>
                 </div>
                 <div className="flex-1 min-w-0 ms-4">
-                  <p className="text-sm font-medium text-gray-800 truncate ">
+                  <p className="text-sm font-medium text-gray-800 truncate hover:pb-2 ease-in-out duration-300">
                     Docker
                   </p>
                 </div>
@@ -343,7 +343,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
                   ></Image>
                 </div>
                 <div className="flex-1 min-w-0 ms-4">
-                  <p className="text-sm font-medium text-gray-800  truncate ">
+                  <p className="text-sm font-medium text-gray-800  truncate hover:pb-2 ease-in-out duration-300">
                     GIT
                   </p>
                 </div>
