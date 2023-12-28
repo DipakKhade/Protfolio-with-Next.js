@@ -29,7 +29,7 @@ const Work: FC<WorkProps> = () => {
         </p>
 
         <div className="flex space-x-4 ml-4">
-      <Link href={'https://github.com/DipakKhade/ClothInference/tree/main/clothinference'} target="_blank" className="text-white bg-blue-500 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
+      <Link href={'https://github.com/DipakKhade/ClothInference/tree/main/clothinference'} target="_blank" className="text-white hover:bg-blue-600 bg-blue-500 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
          
           <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
             fill="currentColor">
@@ -38,7 +38,7 @@ const Work: FC<WorkProps> = () => {
               clipRule="evenodd" />
           </svg>
           </Link>
-      <Link href={'https://cloth-inference-cd5c-git-main-dipak-khades-projects.vercel.app/'} target="_blank" className="text-white bg-green-500 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit deployed site
+      <Link href={'https://cloth-inference-cd5c-git-main-dipak-khades-projects.vercel.app/'} target="_blank"  className="text-white hover:bg-green-600 bg-green-500 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit deployed site
          
           <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
             fill="currentColor">
@@ -61,7 +61,7 @@ const Work: FC<WorkProps> = () => {
         <p className="text-lg font-normal text-gray-500 ">
           HTML , CSS , JavaScript , Flask , Python , R
         </p>
-        <Link href={'https://github.com/DipakKhade/MSc-Project'} target="_blank" className="text-white bg-blue-500 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
+        <Link href={'https://github.com/DipakKhade/MSc-Project'} target="_blank" className="text-white bg-blue-500 hover:bg-blue-600 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
          
          <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
            fill="currentColor">
@@ -83,7 +83,7 @@ const Work: FC<WorkProps> = () => {
         <p className="text-lg font-normal text-gray-200 ">
           Next js 14 , TypeScript , Tailwind CSS , upstash Database , Next Auth
         </p>
-        <Link href={'https://github.com/DipakKhade/messenging-Web-Application-with-Next.js'} target="_blank" className="text-white bg-blue-300 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
+        <Link href={'https://github.com/DipakKhade/messenging-Web-Application-with-Next.js'} target="_blank" className="text-white hover:bg-blue-400 bg-blue-300 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
          
           <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
             fill="currentColor">

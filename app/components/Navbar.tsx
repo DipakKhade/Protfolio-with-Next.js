@@ -7,7 +7,7 @@ interface NavbarProps {}
 const Navbar: FC<NavbarProps> = () => {
   return (
     
-      <div className="navbarfixed flex bg-base-300 z-10 p-2">
+      <div className="navbarfixed flex bg-base-300 z-10 p-2 fixed top-0 w-full m-0 ">
         <div className="flex-1">
           <Link href={"/"} className="btn text-gray-900 btn-ghost md:text-xl ml-18 cursor-text hover:bg-blue-500">
             Dipak Khade
