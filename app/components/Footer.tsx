@@ -12,24 +12,28 @@ const Footer: FC<FooterProps> = () => {
 
 <footer className="bg-blue-200 rounded-lg shadow  m-4">
     <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-        <div className="sm:flex sm:items-center sm:justify-between">
-        
-        <Link href={'/'} className="flex">
-               
-                {/* <span className="self-center md:text-xl ml-4 font-semibold whitespace-nowrap">Thanks for Visiting !</span> */}
 
-                </Link>
-            <ul className="flex flex-wrap items-center mt-6 md:mt-0 mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-                <li> <Image src={logo} width={50} alt="logo" className="rounded-full">
-                </Image></li>
+        <div className="sm:flex sm:items-center ">
+        
+        
+                
+            <ul className="flex  items-center  md:mt-0 lg:mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+            <Link href={'/'}>
+            <li>
+               <Image src={logo} width={40} alt="logo" className="rounded-full">
+                </Image>
+               </li>
+
+               </Link>
+              
                 <li>
-                    <Link href={'https://github.com/DipakKhade'} target="_blank" className="hover:underline me-4 md:me-6 text-black ml-16">github</Link>
+                    <Link href={'https://github.com/DipakKhade'} target="_blank" className="hover:underline me-2 ml-8 md:ml-[60vw]  md:me-6 text-black">github</Link>
                 </li>
                 <li>
-                <Link href={'https://instagram.com/dipakkhade272?igshid=OGQ5ZDc2ODk2ZA=='} target="_blank" className="hover:underline me-4 md:me-6 text-black">instagram</Link>
+                <Link href={'https://instagram.com/dipakkhade272?igshid=OGQ5ZDc2ODk2ZA=='} target="_blank" className="hover:underline me-2 md:me-6 text-black">instagram</Link>
                 </li>
                 <li>
-                <Link href={'/connect'} className="hover:underline me-4 md:me-6 text-black">connect</Link>
+                <Link href={'/connect'} className="hover:underline  md:me-6 text-black">connect</Link>
                 </li>
                
             </ul>

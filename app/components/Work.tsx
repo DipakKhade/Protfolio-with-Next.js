@@ -72,6 +72,9 @@ const Work: FC<WorkProps> = () => {
          </Link>
       </div>
 
+
+
+
       <div className="space-y-4">
         <span
           className="text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded bg-blue-200 text-white">
@@ -93,6 +96,31 @@ const Work: FC<WorkProps> = () => {
           </svg>
           </Link>
       </div>
+
+
+
+      <div className="space-y-4">
+        <span
+          className="bg-blue-400 text-white text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded ">
+          file share 
+        </span>
+        <h3 className="text-2xl font-bold leading-tight ">
+        file share webapp
+        </h3>
+        <p className="text-lg font-normal text-gray-500 ">
+         Express , Node js , MongoDB , Multer , ejs
+        </p>
+        <Link href={'https://github.com/DipakKhade/File-Sharing-webapp'} target="_blank" className="text-white bg-blue-500 hover:bg-blue-600 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
+         
+         <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+           fill="currentColor">
+           <path fillRule="evenodd"
+             d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+             clipRule="evenodd" />
+         </svg>
+         </Link>
+      </div>
+
     </div>
   </div>
 </section>

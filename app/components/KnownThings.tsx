@@ -22,7 +22,7 @@ const KonwnThings: FC<KonwnThingsProps> = () => {
   return (
     <>
     {/* //front end */}
-    <h2 className="text-2xl mt-6 md:ml-[44vw] ml-28 font-bold">What I Know</h2>
+    <h2 className="text-2xl mt-28 md:ml-[44vw] ml-28 font-bold">What I Know</h2>
     <div className="md:flex">
      
       <div className="md:w-[25vw] w-[80vw] p-4 bg-blue-200 border border-gray-200 rounded-lg mt-8 shadow sm:p-8 ml-9  ">
