@@ -13,7 +13,7 @@ const Navbar: FC<NavbarProps> = () => {
             Dipak Khade
           </Link>
         </div>
-             <Link href={'/connect'}> <button className="btn btn-active mr-6 mt-0 hover:bg-blue-300">Connect</button></Link>
+             <Link href={'/connect'}> <button className="btn btn-active mr-6 mt-0 hover:bg-blue-500">Connect</button></Link>
         <div className="flex-none">
           <div className="dropdown dropdown-end"></div>
           <div className="dropdown dropdown-end">

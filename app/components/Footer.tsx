@@ -2,6 +2,9 @@ import { FC } from "react";
 import logo from "../../images/mkbhd22.png";
 import Image from "next/image";
 import Link from "next/link";
+import { FaGithub } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { GrConnect } from "react-icons/gr";
 interface FooterProps {
     
 }
@@ -17,7 +20,7 @@ const Footer: FC<FooterProps> = () => {
         
         
                 
-            <ul className="flex  items-center  md:mt-0 lg:mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+            <ul className="flex space-x-5 items-center md:mt-0 lg:mb-6 text-sm font-medium text-black  sm:mb-0 ">
             <Link href={'/'}>
             <li>
                <Image src={logo} width={40} alt="logo" className="rounded-full">
@@ -27,13 +30,13 @@ const Footer: FC<FooterProps> = () => {
                </Link>
               
                 <li>
-                    <Link href={'https://github.com/DipakKhade'} target="_blank" className="hover:underline me-2 ml-8 md:ml-[60vw]  md:me-6 text-black">github</Link>
+                    <Link href={'https://github.com/DipakKhade'} target="_blank" ><FaGithub className="text-2xl ml-16 md:ml-[70vw] hover:text-blue-700"/></Link>
                 </li>
                 <li>
-                <Link href={'https://instagram.com/dipakkhade272?igshid=OGQ5ZDc2ODk2ZA=='} target="_blank" className="hover:underline me-2 md:me-6 text-black">instagram</Link>
+                <Link href={'https://instagram.com/dipakkhade272?igshid=OGQ5ZDc2ODk2ZA=='} target="_blank" ><FaInstagram className="text-2xl hover:text-blue-700"/></Link>
                 </li>
                 <li>
-                <Link href={'/connect'} className="hover:underline  md:me-6 text-black">connect</Link>
+                <Link href={'/connect'} ><GrConnect className="text-2xl hover:text-blue-700"/></Link>
                 </li>
                
             </ul>

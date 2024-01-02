@@ -16,10 +16,7 @@ const userSchema= new Schema(
             required :false
         },
     },
-    {
-        timeStamp:true,              //to save the time at which data is added
-
-    }
+    { timestamps: true }
 );
 
 const User = mongoose.models.User  ||  mongoose.model("User",userSchema)   //User is a collection name
