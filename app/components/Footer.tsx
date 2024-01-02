@@ -30,13 +30,13 @@ const Footer: FC<FooterProps> = () => {
                </Link>
               
                 <li>
-                    <Link href={'https://github.com/DipakKhade'} target="_blank" ><FaGithub className="text-2xl ml-20 md:ml-[70vw] hover:text-blue-700"/></Link>
+                    <Link href={'https://github.com/DipakKhade'} target="_blank" ><FaGithub className="text-2xl ml-20 md:ml-[70vw] hover:text-blue-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
                 </li>
                 <li>
-                <Link href={'https://instagram.com/dipakkhade272?igshid=OGQ5ZDc2ODk2ZA=='} target="_blank" ><FaInstagram className="text-2xl hover:text-blue-700"/></Link>
+                <Link href={'https://instagram.com/dipakkhade272?igshid=OGQ5ZDc2ODk2ZA=='} target="_blank" ><FaInstagram className="text-2xl hover:text-blue-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
                 </li>
                 <li>
-                <Link href={'/connect'} ><GrConnect className="text-2xl hover:text-blue-700"/></Link>
+                <Link href={'/connect'} ><GrConnect className="text-2xl hover:text-blue-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
                 </li>
                
             </ul>

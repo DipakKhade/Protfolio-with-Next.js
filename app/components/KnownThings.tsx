@@ -14,7 +14,7 @@ import mongologo from "../../images/mongo_logo.jpg";
 import mysqllogo from "../../images/mysql_logo.jpg";
 import dockerlogo from "../../images/docker_logo.webp";
 import gitlogo from "../../images/git_logo.png";
-import redisLogo from "../../images/redis_logo.png"
+import redislogo from "../../images/redis_logo.png"
 
 interface KnownThingsProps {}
 
@@ -49,7 +49,7 @@ const KnownThings: FC<KnownThingsProps> = () => {
         { tag: "Express.js", logo: expressjslogo },
         { tag: "Next Auth", logo: nextauthlogo },
         { tag: "JavaScript", logo: jslogo }, 
-        { tag: "Redis", logo: redisLogo },
+        { tag: "Redis", logo: redislogo },
       ],
     },
     {
@@ -84,10 +84,10 @@ const KnownThings: FC<KnownThingsProps> = () => {
                 <li key={skill.tag} className="py-3 sm:py-4">
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
-                      <Image src={skill.logo} width={45} height={40} className="rounded-full" alt="img" />
+                      <Image src={skill.logo} width={45} height={50} className="rounded-full" alt="img" />
                     </div>
                     <div className="flex-1 min-w-0 ms-4">
-                      <p className="text-sm font-medium text-gray-800 truncate hover:pb-2 ease-in-out duration-300">{skill.tag}</p>
+                      <p className="text-sm font-medium text-gray-800 truncate  transition ease-in-out hover:-translate-y-1 ">{skill.tag}</p>
                     </div>
                   </div>
                 </li>
