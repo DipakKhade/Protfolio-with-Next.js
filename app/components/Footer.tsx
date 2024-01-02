@@ -30,7 +30,7 @@ const Footer: FC<FooterProps> = () => {
                </Link>
               
                 <li>
-                    <Link href={'https://github.com/DipakKhade'} target="_blank" ><FaGithub className="text-2xl ml-16 md:ml-[70vw] hover:text-blue-700"/></Link>
+                    <Link href={'https://github.com/DipakKhade'} target="_blank" ><FaGithub className="text-2xl ml-20 md:ml-[70vw] hover:text-blue-700"/></Link>
                 </li>
                 <li>
                 <Link href={'https://instagram.com/dipakkhade272?igshid=OGQ5ZDc2ODk2ZA=='} target="_blank" ><FaInstagram className="text-2xl hover:text-blue-700"/></Link>
