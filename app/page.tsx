@@ -1,18 +1,20 @@
-import Work from './components/Work'
-import Navbar from './components/Navbar'
-import KonwnThings from './components/KnownThings'
-import Footer from './components/Footer'
+import DiscordButton from '@/components/Discord'
+import Footer from '@/components/Footer'
+import Skills from '@/components/Skills'
+import Work from '@/components/Work'
+import Projects from '@/components/projects'
+import Image from 'next/image'
 
 export default function Home() {
   return (
-  <>
-   <Navbar/>
+  <main>
+    
+    <DiscordButton/>
 
- 
-  <KonwnThings/>
-  <Work/>
-  <Footer/>
- 
-  </>
+    <Skills/>
+    <Work/>
+
+    <Footer/>
+  </main>
   )
 }

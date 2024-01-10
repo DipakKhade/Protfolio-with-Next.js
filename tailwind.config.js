@@ -1,9 +1,5 @@
-import type { Config } from 'tailwindcss'
-
-const config: Config = {
-  daisyui: {
-    themes: ["light"],
-  },
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -18,6 +14,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [],
+  darkMode:'class'
 }
-export default config

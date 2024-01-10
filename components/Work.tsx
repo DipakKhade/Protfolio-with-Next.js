@@ -6,11 +6,11 @@ interface WorkProps {
  
 const Work: FC<WorkProps> = () => {
     return ( <>
-    <section className="bg-white dark:bg-base-100 antialiased">
+    <section className="dark:bg-base-100 antialiased ">
   <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
     <div className="max-w-2xl mx-auto text-center">
-      <h2 className="text-2xl font-bold leading-tight tracking-tight  sm:text-4xl ">
-         work
+    <h2 className="text-2xl mt-12 font-bold text-gray-600 dark:text-gray-800">
+        Projects
       </h2>
       
     </div>
@@ -29,7 +29,7 @@ const Work: FC<WorkProps> = () => {
         </p>
 
         <div className="flex space-x-4 ml-4">
-      <Link href={'https://github.com/DipakKhade/ClothInference/tree/main/clothinference'} target="_blank" className="text-white hover:bg-blue-600 bg-blue-500 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
+      <Link href={'https://github.com/DipakKhade/ClothInference/tree/main/clothinference'} target="_blank" className="text-white hover:bg-purple-600 bg-purple-500 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
          
           <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
             fill="currentColor">
@@ -52,7 +52,7 @@ const Work: FC<WorkProps> = () => {
 
       <div className="space-y-4">
         <span
-          className="bg-blue-400 text-white text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded ">
+          className="bg-purple-400 text-white text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded ">
           Hemorhage Detection
         </span>
         <h3 className="text-2xl font-bold leading-tight ">
@@ -61,7 +61,7 @@ const Work: FC<WorkProps> = () => {
         <p className="text-lg font-normal text-gray-500 ">
           HTML , CSS , JavaScript , Flask , Python , R
         </p>
-        <Link href={'https://github.com/DipakKhade/MSc-Project'} target="_blank" className="text-white bg-blue-500 hover:bg-blue-600 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
+        <Link href={'https://github.com/DipakKhade/MSc-Project'} target="_blank" className="text-white bg-purple-500 hover:bg-purple-600 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
          
          <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
            fill="currentColor">
@@ -77,7 +77,7 @@ const Work: FC<WorkProps> = () => {
 
       <div className="space-y-4">
         <span
-          className="text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded bg-blue-200 text-white">
+          className="text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded bg-purple-200 text-white">
           messenging 
         </span>
         <h3 className="text-2xl font-bold leading-tight text-gray-600 ">
@@ -86,7 +86,7 @@ const Work: FC<WorkProps> = () => {
         <p className="text-lg font-normal text-gray-200 ">
           Next js 14 , TypeScript , Tailwind CSS , upstash Database , Next Auth
         </p>
-        <Link href={'https://github.com/DipakKhade/messenging-Web-Application-with-Next.js'} target="_blank" className="text-white hover:bg-blue-400 bg-blue-300 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
+        <Link href={'https://github.com/DipakKhade/messenging-Web-Application-with-Next.js'} target="_blank" className="text-white hover:bg-purple-400 bg-purple-300 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
          
           <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
             fill="currentColor">
@@ -101,7 +101,7 @@ const Work: FC<WorkProps> = () => {
 
       <div className="space-y-4">
         <span
-          className="bg-blue-400 text-white text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded ">
+          className="bg-purple-400 text-white text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded ">
           file share 
         </span>
         <h3 className="text-2xl font-bold leading-tight ">
@@ -110,7 +110,7 @@ const Work: FC<WorkProps> = () => {
         <p className="text-lg font-normal text-gray-500 ">
          Express , Node js , MongoDB , Multer , ejs
         </p>
-        <Link href={'https://github.com/DipakKhade/File-Sharing-webapp'} target="_blank" className="text-white bg-blue-500 hover:bg-blue-600 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
+        <Link href={'https://github.com/DipakKhade/File-Sharing-webapp'} target="_blank" className="text-white bg-purple-500 hover:bg-purple-600 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
          
          <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
            fill="currentColor">

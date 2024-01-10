@@ -1,7 +1,7 @@
 "use client";
 import { FC, useState } from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "../../components/header";
+import Footer from "../../components/Footer";
 import { FieldValues, useForm } from 'react-hook-form';
 import toast from "react-hot-toast";
 
@@ -21,9 +21,8 @@ const {
 
 
 const Submission=async(data:FieldValues)=>{
-  const domain='https://protfolio-with-next-js-dfx1.vercel.app/'
 
-    const res = await fetch(`${domain}//api/users`, {
+    const res = await fetch(`${process.env.NEXT_PUBLIC__HOST}//api/users`, {
               method: "POST",
               headers: {
                 "content-type": "application/json",
@@ -69,7 +68,7 @@ const Submission=async(data:FieldValues)=>{
               id="email"
               name="email"
                
-                className="shadow-sm bg-blue-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                className="shadow-sm border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-800 dark:border-black/40 dark:bg-opacity-75"
                 placeholder=""
                 required
               />
@@ -88,7 +87,7 @@ const Submission=async(data:FieldValues)=>{
                id="subject"
                name="subject"
                
-                className="block p-3 w-full text-sm text-gray-900 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 bg-blue-100  "
+                className="block p-3 w-full text-sm text-gray-900 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-800 dark:border-black/40 dark:bg-opacity-75"
                 placeholder="Let me know how i can help you"
                 required
               />
@@ -106,14 +105,14 @@ const Submission=async(data:FieldValues)=>{
                id="message"
                name="message"
                
-                className="block p-2.5 w-full text-sm text-gray-900 bg-blue-100 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 "
+                className="block p-2.5 w-full text-sm text-gray-900 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-800 dark:border-black/40 dark:bg-opacity-75"
                 placeholder="Leave a comment..."
               ></textarea>
             </div>
             <button
             disabled={isSubmitting}
               type="submit"
-              className="py-3 px-5 text-sm font-medium text-center bg-blue-500 text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300  disabled:bg-gray-800"
+              className="py-3 px-5 text-sm font-medium text-center bg-purple-500 dark:bg-gray-800 text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300  disabled:bg-gray-800"
             >
               Send message
             </button>
