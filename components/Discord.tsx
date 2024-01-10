@@ -14,7 +14,7 @@ const DiscordButton: FC<DiscordButtonProps> = () => {
         </h3>
 
         <div className="text-3xl font-mono dark:text-white text-gray-600">
-          I'm Dipak Khade
+          I&apos;m Dipak Khade
         </div>
         <p className="text-gray-600 mt-2">Fullstack Developer | Part time statistician </p>
         <hr className="my-6 border-purple-500 sm:mx-auto dark:border-gray-200 lg:my-8" />
