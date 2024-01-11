@@ -65,9 +65,9 @@ const Header: FC<HeaderProps> = () => {
               initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}>
             
-              
+              <div className="ml-32">|</div>
                 <li>
-                    <Link href={'https://github.com/DipakKhade'} target="_blank" ><FaGithub className="text-2xl ml-32 hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                    <Link href={'https://github.com/DipakKhade'} target="_blank" ><FaGithub className="text-2xl  hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
                 </li>
                 <li>
                 <Link href={'https://instagram.com/dipakkhade272?igshid=OGQ5ZDc2ODk2ZA=='} target="_blank" ><FaInstagram className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>

@@ -71,6 +71,7 @@ const KnownThings: FC<KnownThingsProps> = () => {
 
   return (
     <>
+    
       <h2 className="text-2xl mt-8 md:ml-[44vw] ml-20 font-bold text-gray-600 dark:text-gray-800">
         What I Know
       </h2>

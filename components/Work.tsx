@@ -6,6 +6,9 @@ interface WorkProps {
  
 const Work: FC<WorkProps> = () => {
     return ( <>
+
+<div className="bg-[#fbe2e3] absolute -z-10 h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#ca999a]"></div>
+        <div className="bg-[#dbd7fb] absolute -z-10 h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#b9b5eb]"></div>
     <section className="dark:bg-base-100 antialiased " id="projects">
   <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
     <div className="max-w-2xl mx-auto text-center">
@@ -24,7 +27,7 @@ const Work: FC<WorkProps> = () => {
         <h3 className="text-2xl font-bold leading-tight">
          e commerce website
         </h3>
-        <p className="text-lg font-normal text-gray-500 ">
+        <p className="text-lg font-normal text-gray-600 dark:text-gray-800">
            Next js 14 , JavaScript , Tailwind CSS , MongoDB , Next Auth
         </p>
 
@@ -58,7 +61,7 @@ const Work: FC<WorkProps> = () => {
         <h3 className="text-2xl font-bold leading-tight ">
           detecting bleeding in brain
         </h3>
-        <p className="text-lg font-normal text-gray-500 ">
+        <p className="text-lg font-normal text-gray-600 dark:text-gray-800 ">
           HTML , CSS , JavaScript , Flask , Python , R
         </p>
         <Link href={'https://github.com/DipakKhade/MSc-Project'} target="_blank" className="text-white bg-purple-500 hover:bg-purple-600 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
@@ -83,7 +86,7 @@ const Work: FC<WorkProps> = () => {
         <h3 className="text-2xl font-bold leading-tight text-gray-600 ">
         messenging Web application
         </h3>
-        <p className="text-lg font-normal text-gray-200 ">
+        <p className="text-lg font-normal text-gray-600 dark:text-gray-800 ">
           Next js 14 , TypeScript , Tailwind CSS , upstash Database , Next Auth
         </p>
         <Link href={'https://github.com/DipakKhade/messenging-Web-Application-with-Next.js'} target="_blank" className="text-white hover:bg-purple-400 bg-purple-300 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"> Visit repo
