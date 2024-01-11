@@ -108,18 +108,21 @@ const DiscordButton: FC<DiscordButtonProps> = () => {
           <div className="absolute -inset-1 bg-gradient-to-r from-red-600 to-violet-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
           <div className="relative px-7 py-3 bg-white ring-1 dark:bg-slate-800 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
             <div className="flex space-x-2">
-              <p className="text-gray-600 text-xl font-bold dark:text-white ">
+            <div>
+              {session?.user?.image !== undefined && session?.user?.image !== null && (
+  <Image
+    src={session.user.image}
+    width={50}
+    height={50}
+    alt="img"
+    className="rounded-full"
+  />
+)}
+                </div>
+              <p className="text-gray-600 text-xl font-bold dark:text-white mt-2">
                 Sign Out
               </p>
-              <div>
-                  <Image
-                    src={session?.user?.image}
-                    width={50}
-                    height={50}
-                    alt="img"
-                    className="rounded-full"
-                  ></Image>
-                </div>
+             
               
             </div>
           </div>
