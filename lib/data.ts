@@ -12,6 +12,12 @@ name:'Projects',
 routename:'#projects',
 href:'#projects'
   },
+
+  {
+name:'Blogs',
+routename:'#blogs',
+href:'blogs'
+  },
   
   
   {
@@ -19,5 +25,9 @@ href:'#projects'
     routename:'/contact',
     href:'contact'
   },
+
+ 
+
+ 
 ] as const;
 

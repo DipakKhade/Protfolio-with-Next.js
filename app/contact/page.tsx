@@ -1,5 +1,5 @@
 "use client";
-import { FC, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import Navbar from "../../components/header";
 import Footer from "../../components/Footer";
 import { FieldValues, useForm } from "react-hook-form";
@@ -10,10 +10,14 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FiMail } from 'react-icons/fi';
 import Link from "next/link";
-
+import {useSession , signIn, signOut} from 'next-auth/react'
 interface ConnectProps {}
 
 const Connect: FC<ConnectProps> = () => {
+
+  
+  const {data:session , status} = useSession()
+console.log(session)
   const [isSubtting, setIsSubtting] = useState(false);
   const [sucessmsg, setSucessmsg] = useState(false);
   //react hook form
@@ -37,9 +41,23 @@ const Connect: FC<ConnectProps> = () => {
     let respone = await res.json();
     setIsSubtting(true);
 
-    toast.success("Happy to connect with you");
+    toast.success("Message send successfully ");
     reset();
+
+
   };
+useEffect(() => {
+  const userToast=()=>{
+    if(status=='authenticated'){
+      
+    toast.success(`happy to connect with you ${session.user?.name}`);
+    }
+  }
+
+  userToast();
+}, [])
+
+ 
 
   return (
     <>
@@ -83,9 +101,33 @@ const Connect: FC<ConnectProps> = () => {
                   <FaInstagram className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110" />
                 </Link>
               </li>
+        
             </ul>
+
+
+         
+
+
           </div>
+
           <form onSubmit={handleSubmit(Submission)} className="space-y-8">
+          <div>
+              <label
+                htmlFor="subject"
+                className="block mb-2 text-sm font-medium text-gray-800 "
+              >
+                Your Name
+              </label>
+              <input
+                {...register("subject")}
+                type="text"
+                id="subject"
+                name="subject"
+                className="block p-3 w-full text-sm text-gray-900 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-800 dark:border-black/40 dark:bg-opacity-75"
+               
+                required
+              />
+            </div>
             <div>
               <label
                 htmlFor="email"
@@ -106,36 +148,20 @@ const Connect: FC<ConnectProps> = () => {
                 required
               />
             </div>
-            <div>
-              <label
-                htmlFor="subject"
-                className="block mb-2 text-sm font-medium text-gray-800 "
-              >
-                Subject
-              </label>
-              <input
-                {...register("subject")}
-                type="text"
-                id="subject"
-                name="subject"
-                className="block p-3 w-full text-sm text-gray-900 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-800 dark:border-black/40 dark:bg-opacity-75"
-                placeholder="Let me know how i can help you"
-                required
-              />
-            </div>
+           
             <div className="sm:col-span-2">
               <label
                 htmlFor="message"
                 className="block mb-2 text-sm font-medium text-gray-900 "
               >
-                Your message
+                Your Message
               </label>
               <textarea
                 {...register("message")}
                 id="message"
                 name="message"
                 className="block p-2.5 w-full text-sm text-gray-900 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-800 dark:border-black/40 dark:bg-opacity-75"
-                placeholder="Leave a comment..."
+                placeholder="Leave a message..."
               ></textarea>
             </div>
             <button

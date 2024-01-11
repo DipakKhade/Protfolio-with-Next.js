@@ -11,11 +11,14 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from 'react-icons/fa';
 
 
+
 interface HeaderProps {
     
 }
  
 const Header: FC<HeaderProps> = () => {
+
+
   const currentRoute = usePathname();
     return ( <header className="z-[777] relative">
         <motion.div 
@@ -24,11 +27,11 @@ const Header: FC<HeaderProps> = () => {
          animate={{ y: 0, x: "-50%", opacity: 1 }}
         ></motion.div>
 
-<nav className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 ">
+<nav className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2">
   
   <div>
 
-        <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500  ">
+        <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500 flex-[1/4] sm:p-0">
           {links.map((link) => (
             <motion.li
               className="h-3/4 flex items-center justify-center relative"
@@ -52,6 +55,7 @@ const Header: FC<HeaderProps> = () => {
                {link.name}
               
               </Link>
+            
             
            
             </motion.li>

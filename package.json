@@ -19,6 +19,7 @@
     "framer-motion": "^10.17.9",
     "mongoose": "^8.0.4",
     "next": "14.0.4",
+    "next-auth": "^4.24.5",
     "next-server-context": "^6.0.0",
     "nextjs-toploader": "^1.6.4",
     "postcss": "8.4.33",
