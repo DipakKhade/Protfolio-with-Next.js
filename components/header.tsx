@@ -49,7 +49,7 @@ const Header: FC<HeaderProps> = () => {
                 href={link.href}
                
               >
-                {link.name}
+               {link.name}
               
               </Link>
             
