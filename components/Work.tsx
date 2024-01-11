@@ -7,8 +7,8 @@ interface WorkProps {
 const Work: FC<WorkProps> = () => {
     return ( <>
 
-<div className="bg-[#fbe2e3] absolute -z-10 h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#ca999a]"></div>
-        <div className="bg-[#dbd7fb] absolute -z-10 h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#b9b5eb]"></div>
+<div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263] w-[60vw]"></div>
+        <div className="bg-[#dbd7fb] absolute -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#676394]"></div>
     <section className="dark:bg-base-100 antialiased " id="projects">
   <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
     <div className="max-w-2xl mx-auto text-center">
