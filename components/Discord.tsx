@@ -1,10 +1,14 @@
 import { FC } from "react";
-
+import { FaGithub } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin } from 'react-icons/fa';
+import Link from "next/link";
 interface DiscordButtonProps {}
 
 const DiscordButton: FC<DiscordButtonProps> = () => {
   return (
-    <div className="max-w-80 ml-8 mt-24">
+    <div className="max-w-80 md:ml-8 ml-4 mt-24">
       <div>
         <h3 className="text-xl font-semibold flex text-purple-700">
           <hr className="my-6 border-purple-500 sm:mx-auto dark:border-gray-200 lg:my-8" />
@@ -16,7 +20,36 @@ const DiscordButton: FC<DiscordButtonProps> = () => {
         <div className="text-3xl font-mono dark:text-white text-gray-600">
           I&apos;m Dipak Khade
         </div>
-        <p className="text-gray-600 mt-2">Fullstack Developer | Part time statistician </p>
+        <p className="text-gray-600 mt-2">Fullstack Developer </p>
+        
+
+        <div>
+          <ul className="flex mt-4 space-x-5 items-center md:mt-0 lg:mb-6 text-sm font-medium text-gray-500  sm:mb-0 sm:hidden"
+             >
+            
+              
+                <li>
+                    <Link href={'https://github.com/DipakKhade'} target="_blank" ><FaGithub className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                </li>
+
+                <li>
+                <Link href={'https://twitter.com/dipakKhade272'} target="_blank"><FaXTwitter className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                </li>
+
+                <li>
+                <Link href={'https://www.linkedin.com/in/dipak-khade-715389252/'} target="_blank"><FaLinkedin className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                </li>
+
+
+                <li>
+                <Link href={'https://instagram.com/dipakkhade272?igshid=OGQ5ZDc2ODk2ZA=='} target="_blank" ><FaInstagram className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                </li>
+               
+               
+               
+            </ul>
+          </div>
+
         <hr className="my-6 border-purple-500 sm:mx-auto dark:border-gray-200 lg:my-8" />
       </div>
       <div className="relative group cursor-pointer">

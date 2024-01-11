@@ -6,6 +6,12 @@ export const links = [
     routename:'/',
     href:'/'
   },
+
+  {
+name:'Projects',
+routename:'#projects',
+href:'#projects'
+  },
   
   
   {

@@ -5,6 +5,10 @@ import { links } from "@/lib/data";
 import Link from "next/link";
 import clsx from "clsx";
 import { usePathname } from 'next/navigation';
+import { FaGithub } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin } from 'react-icons/fa';
 
 
 interface HeaderProps {
@@ -21,6 +25,9 @@ const Header: FC<HeaderProps> = () => {
         ></motion.div>
 
 <nav className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 ">
+  
+  <div>
+
         <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500  ">
           {links.map((link) => (
             <motion.li
@@ -33,7 +40,7 @@ const Header: FC<HeaderProps> = () => {
              
                 className={clsx(
                  {
-                  "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300":true,
+                  "flex w-full items-center justify-center px-3 py-1 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300":true,
 
                   'text-purple-700 dark:text-purple-700':link.routename==currentRoute
                  }
@@ -43,11 +50,38 @@ const Header: FC<HeaderProps> = () => {
                
               >
                 {link.name}
-                
+              
               </Link>
+            
+           
             </motion.li>
           ))}
+
+         
         </ul>
+        </div>
+        <div>
+          <motion.ul className="sm:flex hidden space-x-5 items-center md:mt-0 lg:mb-6 text-sm font-medium text-gray-500  sm:mb-0"
+              initial={{ y: -100, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}>
+            
+              
+                <li>
+                    <Link href={'https://github.com/DipakKhade'} target="_blank" ><FaGithub className="text-2xl ml-32 hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                </li>
+                <li>
+                <Link href={'https://instagram.com/dipakkhade272?igshid=OGQ5ZDc2ODk2ZA=='} target="_blank" ><FaInstagram className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                </li>
+                <li>
+                <Link href={'https://twitter.com/dipakKhade272'} target="_blank"><FaXTwitter className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                </li>
+                <li>
+                <Link href={'https://www.linkedin.com/in/dipak-khade-715389252/'} target="_blank"><FaLinkedin className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                </li>
+               
+            </motion.ul>
+          </div>
+
       </nav>
     </header> );
 }

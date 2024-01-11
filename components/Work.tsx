@@ -6,7 +6,7 @@ interface WorkProps {
  
 const Work: FC<WorkProps> = () => {
     return ( <>
-    <section className="dark:bg-base-100 antialiased ">
+    <section className="dark:bg-base-100 antialiased " id="projects">
   <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
     <div className="max-w-2xl mx-auto text-center">
     <h2 className="text-2xl mt-12 font-bold text-gray-600 dark:text-gray-800">
