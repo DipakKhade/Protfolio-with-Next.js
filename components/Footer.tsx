@@ -1,11 +1,10 @@
 import { FC } from "react";
-import logo from "../images/mkbhd22.png";
-import Image from "next/image";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa'
+import { TbBrandNextjs } from "react-icons/tb";;
 interface FooterProps {
     
 }
@@ -42,6 +41,7 @@ const Footer: FC<FooterProps> = () => {
                
             </ul>
         </div> */}
+        <div className="text-gray-500 dark:text-gray-800 flex space-x-2"><TbBrandNextjs className="mt-1"/><p>Coded In Next.js 14</p></div>
 
 <div>
           <ul className="flex mt-4 dark:text-gray-800  space-x-5 items-center md:mt-0 lg:mb-6 text-sm font-medium text-gray-500  sm:mb-0 ml-24 md:ml-[70vw]"

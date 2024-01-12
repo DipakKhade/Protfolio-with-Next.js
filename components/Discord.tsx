@@ -31,6 +31,7 @@ const DiscordButton: FC<DiscordButtonProps> = () => {
         </div>
         <p className="text-gray-600 mt-2">Fullstack Developer </p>
         
+        <p className="text-gray-500 dark:text-gray-800">My journey in the tech world has led me to master technologies like Next.js, Node.js, Express, and WebSocket, empowering me to create dynamic and responsive web solutions.</p>
 
         <div>
           <ul className="flex mt-4 dark:text-gray-800  space-x-5 items-center md:mt-0 lg:mb-6 text-sm font-medium text-gray-500  sm:mb-0 sm:hidden"
@@ -106,7 +107,7 @@ const DiscordButton: FC<DiscordButtonProps> = () => {
       <div className="relative group cursor-pointer hover:text-purple-400 dark:hover:text-purple-400">
         <div className="relative group cursor-pointer">
           <div className="absolute -inset-1 bg-gradient-to-r from-red-600 to-violet-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-          <div className="relative px-7 py-3 bg-white ring-1 dark:bg-slate-800 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
+          <div className="relative px-7 py-4 bg-white ring-1 dark:bg-slate-800 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
             <div className="flex space-x-2">
             <div>
               {session?.user?.image !== undefined && session?.user?.image !== null && (
