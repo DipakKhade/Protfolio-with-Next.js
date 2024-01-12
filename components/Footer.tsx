@@ -41,10 +41,12 @@ const Footer: FC<FooterProps> = () => {
                
             </ul>
         </div> */}
-        <div className="text-gray-500 dark:text-gray-800 flex space-x-2"><TbBrandNextjs className="mt-1"/><p>Coded In Next.js 14</p></div>
+        <div className="text-gray-500 dark:text-gray-800 sm:flex space-x-2"><div className="flex"><TbBrandNextjs className="mt-1"/><p>Coded In Next.js 14</p></div>
+        <p>&copy; 2024 - Developed by Dipak Khade. All right reserved.</p>
+        </div>
 
 <div>
-          <ul className="flex mt-4 dark:text-gray-800  space-x-5 items-center md:mt-0 lg:mb-6 text-sm font-medium text-gray-500  sm:mb-0 ml-24 md:ml-[70vw]"
+          <ul className="flex mt-4 dark:text-gray-800  space-x-5 items-center md:mt-0 lg:mb-6 text-sm font-medium text-gray-500  sm:mb-0 ml-20 md:ml-[65vw]"
              >
         <div>|</div>
             
