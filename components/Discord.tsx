@@ -82,7 +82,7 @@ const DiscordButton: FC<DiscordButtonProps> = () => {
       </div>
       </Link>
      
-     {
+     {/* {
       status=='unauthenticated'?
        <button onClick={()=>signIn("github")}>
       <div className="relative group cursor-pointer hover:text-purple-400 dark:hover:text-purple-400">
@@ -130,7 +130,7 @@ const DiscordButton: FC<DiscordButtonProps> = () => {
         </div>
       </div>
       </button>
-     }
+     } */}
      
 
       </div>
