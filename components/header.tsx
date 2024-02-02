@@ -45,7 +45,7 @@ const Header: FC<HeaderProps> = () => {
                  {
                   "flex w-full items-center justify-center px-3 py-1 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300":true,
 
-                  'text-purple-700 dark:text-purple-700':link.routename==currentRoute
+                  'text-blue-700 dark:text-blue-700':link.routename==currentRoute
                  }
                
                 )}
@@ -71,16 +71,16 @@ const Header: FC<HeaderProps> = () => {
             
               <div className="ml-32">|</div>
                 <li>
-                    <Link href={'https://github.com/DipakKhade'} target="_blank" ><FaGithub className="text-2xl  hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                    <Link href={'https://github.com/DipakKhade'} target="_blank" ><FaGithub className="text-2xl  hover:text-blue-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
                 </li>
                 <li>
-                <Link href={'https://instagram.com/dipakkhade272?igshid=OGQ5ZDc2ODk2ZA=='} target="_blank" ><FaInstagram className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                <Link href={'https://instagram.com/dipakkhade272?igshid=OGQ5ZDc2ODk2ZA=='} target="_blank" ><FaInstagram className="text-2xl hover:text-blue-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
                 </li>
                 <li>
-                <Link href={'https://twitter.com/dipakKhade272'} target="_blank"><FaXTwitter className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                <Link href={'https://twitter.com/dipakKhade272'} target="_blank"><FaXTwitter className="text-2xl hover:text-blue-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
                 </li>
                 <li>
-                <Link href={'https://www.linkedin.com/in/dipak-khade-715389252/'} target="_blank"><FaLinkedin className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                <Link href={'https://www.linkedin.com/in/dipak-khade-715389252/'} target="_blank"><FaLinkedin className="text-2xl hover:text-blue-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
                 </li>
                
             </motion.ul>

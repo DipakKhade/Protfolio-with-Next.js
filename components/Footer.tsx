@@ -13,7 +13,7 @@ const Footer: FC<FooterProps> = () => {
     return ( 
         
 
-<footer className="bg-violet-200  rounded-lg shadow  m-4 dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75">
+<footer className="rounded-lg shadow  m-4 dark:border-black/40 dark:bg-opacity-75 mt-[30vh] md:mt-0">
     <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
 
         {/* <div className="sm:flex sm:items-center ">
@@ -30,13 +30,13 @@ const Footer: FC<FooterProps> = () => {
                </Link>
               
                 <li>
-                    <Link href={'https://github.com/DipakKhade'} target="_blank" ><FaGithub className="text-2xl ml-32 md:ml-[70vw] hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                    <Link href={'https://github.com/DipakKhade'} target="_blank" ><FaGithub className="text-2xl ml-32 md:ml-[70vw] hover:text-blue-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
                 </li>
                 <li>
-                <Link href={'https://instagram.com/dipakkhade272?igshid=OGQ5ZDc2ODk2ZA=='} target="_blank" ><FaInstagram className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                <Link href={'https://instagram.com/dipakkhade272?igshid=OGQ5ZDc2ODk2ZA=='} target="_blank" ><FaInstagram className="text-2xl hover:text-blue-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
                 </li>
                 <li>
-                <Link href={'https://twitter.com/dipakKhade272'} ><FaXTwitter className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                <Link href={'https://twitter.com/dipakKhade272'} ><FaXTwitter className="text-2xl hover:text-blue-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
                 </li>
                
             </ul>
@@ -52,27 +52,27 @@ const Footer: FC<FooterProps> = () => {
             
               
                 <li>
-                    <Link href={'https://github.com/DipakKhade'} target="_blank" ><FaGithub className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                    <Link href={'https://github.com/DipakKhade'} target="_blank" ><FaGithub className="text-2xl hover:text-blue-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
                 </li>
 
                 <li>
-                <Link href={'https://twitter.com/dipakKhade272'} target="_blank"><FaXTwitter className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                <Link href={'https://twitter.com/dipakKhade272'} target="_blank"><FaXTwitter className="text-2xl hover:text-blue-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
                 </li>
 
                 <li>
-                <Link href={'https://www.linkedin.com/in/dipak-khade-715389252/'} target="_blank"><FaLinkedin className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                <Link href={'https://www.linkedin.com/in/dipak-khade-715389252/'} target="_blank"><FaLinkedin className="text-2xl hover:text-blue-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
                 </li>
 
 
                 <li>
-                <Link href={'https://instagram.com/dipakkhade272?igshid=OGQ5ZDc2ODk2ZA=='} target="_blank" ><FaInstagram className="text-2xl hover:text-purple-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
+                <Link href={'https://instagram.com/dipakkhade272?igshid=OGQ5ZDc2ODk2ZA=='} target="_blank" ><FaInstagram className="text-2xl hover:text-blue-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"/></Link>
                 </li>
                
                
                
             </ul>
           </div>
-        <hr className="my-6 border-purple-500 sm:mx-auto dark:border-gray-200 lg:my-8" />
+        <hr className="my-6 border-blue-500 sm:mx-auto dark:border-gray-200 lg:my-8" />
        
     </div>
 </footer>

@@ -1,9 +1,8 @@
-import About from '@/components/About'
+
 import DiscordButton from '@/components/Discord'
 import Footer from '@/components/Footer'
 import Skills from '@/components/Skills'
-import Work from '@/components/Work'
-
+import { ProjectCards } from '@/components/Work'
 export default function Home() {
   return (
   <main>
@@ -11,8 +10,7 @@ export default function Home() {
     <DiscordButton/>
 
     <Skills/>
-    <Work/>
-<About/>
+    <ProjectCards/>
     <Footer/>
   </main>
   )
