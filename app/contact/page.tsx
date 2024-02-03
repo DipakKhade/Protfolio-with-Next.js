@@ -53,7 +53,7 @@ const Connect: FC<ConnectProps> = () => {
   return (
     <>
       <Navbar />
-      <main className="p-8 mt-24">
+      <main className="p-8 mt-40 lg:mt-22">
         <WavyBackground
           // backgroundFill={bgFill}
           waveWidth={50}

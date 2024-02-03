@@ -81,7 +81,7 @@ const KnownThings: FC<KnownThingsProps> = () => {
         {categories.map((category) => (
           <div
             key={category.title}
-            className="md:w-[25vw] w-[80vw] p-4 dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75 rounded-lg mt-8 sm:p-8 ml-9"
+            className="md:w-[25vw] w-[80vw] p-4 dark:bg-stone-900 mb-4 dark:border-black/40 dark:bg-opacity-75 rounded-lg mt-8 sm:p-8 ml-5 mr-3"
           >
             <div className="flex items-center justify-between mb-4">
               <h5 className="text-xl font-bold leading-none">
