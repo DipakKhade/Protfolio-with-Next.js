@@ -9,8 +9,8 @@ export default function Home() {
     
     <DiscordButton/>
 
-    <Skills/>
     <ProjectCards/>
+    <Skills/>
     <Footer/>
   </main>
   )

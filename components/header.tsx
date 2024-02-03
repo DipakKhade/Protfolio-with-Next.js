@@ -31,7 +31,7 @@ const Header: FC<HeaderProps> = () => {
   
   <div>
 
-        <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500 flex-[1/4] sm:p-0">
+        <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium flex-[1/4] sm:p-0">
           {links.map((link) => (
             <motion.li
               className="h-3/4 flex items-center justify-center relative"
@@ -43,9 +43,9 @@ const Header: FC<HeaderProps> = () => {
              
                 className={clsx(
                  {
-                  "flex w-full items-center justify-center px-3 py-1 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300":true,
+                  "flex w-full items-center justify-center px-3 py-1 hover:text-gray-950 transition dark:hover:text-gray-300":true,
 
-                  'text-blue-700 dark:text-blue-700':link.routename==currentRoute
+                  'text-blue-700':link.routename==currentRoute
                  }
                
                 )}
