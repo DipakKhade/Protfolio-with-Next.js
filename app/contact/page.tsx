@@ -31,7 +31,7 @@ const Connect: FC<ConnectProps> = () => {
 
   const Submission = async (data: FieldValues) => {
     const local='http://localhost:3000/'
-    const domain = "https://protfolio-with-next-js-dfx1.vercel.app/";
+    const domain = "https://protfolio-with-next-js.vercel.app/";
     const res = await fetch(`${domain}/api/users`, {
       method: "POST",
       headers: {
@@ -179,7 +179,7 @@ const Connect: FC<ConnectProps> = () => {
                 {...register("message")}
                 id="message"
                 name="message"
-                className="block p-2.5 w-full text-sm text-gray-900 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-800 dark:border-black/40 dark:bg-opacity-75"
+                className="block p-2.5 w-full text-sm rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-800 dark:border-black/40 dark:bg-opacity-75"
                 placeholder="Leave a message..."
               ></textarea>
             </div>
