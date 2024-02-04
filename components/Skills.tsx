@@ -15,7 +15,7 @@ import mysqllogo from "../images/mysql_logo.jpg";
 import dockerlogo from "../images/docker_logo.webp";
 import gitlogo from "../images/git_logo.png";
 import redislogo from "../images/redis_logo.png"
-
+import reduxlogo from '../images/redux_logo.webp'
 
 interface KnownThingsProps {}
 
@@ -41,6 +41,7 @@ const KnownThings: FC<KnownThingsProps> = () => {
             { tag: "TypeScript", logo: tslogo },
             { tag: "React.js", logo: react },
             { tag: "Next.js", logo: nextlogo },
+            { tag: "Redux", logo: reduxlogo },
           ],
         },
         {
