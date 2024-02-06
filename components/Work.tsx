@@ -43,11 +43,11 @@ export const projects = [
       " Express , Node js , MongoDB , Multer , ejs",
     link: "https://meta.com",
   },
-  {
-    title: " messenging Web application",
-    description:
-      " Next js 14 , TypeScript , Tailwind CSS , upstash Database , Next Auth",
-    link: "https://github.com/DipakKhade/messenging-Web-Application-with-Next.js",
-  },
   
+  {
+    title: "app to store a code snippets",
+    description:
+      " React , TypeScript , Tailwind CSS ",
+    link: "https://dipakcodesnippets.vercel.app/",
+  },
 ];
