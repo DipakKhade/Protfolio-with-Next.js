@@ -7,7 +7,7 @@ import dynamic from "next/dynamic";
 const WhatsAppIcon = () => {
   return (
     
-       <FloatingWhatsApp avatar={pimage.src} phoneNumber="8999105272" accountName='Dipak Khade' chatMessage="Hello, how can I help you?" />
+       <FloatingWhatsApp avatar={pimage.src} phoneNumber="+918999105272" accountName='Dipak Khade' chatMessage="Hello, how can I help you?" />
 
   )
 }
