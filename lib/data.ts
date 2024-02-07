@@ -9,8 +9,8 @@ export const links = [
 
   {
 name:'Projects',
-routename:'#projects',
-href:'#projects'
+routename:'/#projects',
+href:'/#projects'
   },
 
   {
