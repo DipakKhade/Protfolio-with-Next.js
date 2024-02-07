@@ -37,6 +37,7 @@ export function TypewriterEffectSmoothDemo() {
           Blogs
         </button>
         </Link>
+    
       </div>
     </div>
   );

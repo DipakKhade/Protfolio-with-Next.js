@@ -12,6 +12,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import Link from "next/link";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
 interface ConnectProps {}
 
 const Connect: FC<ConnectProps> = () => {
@@ -194,6 +195,11 @@ const Connect: FC<ConnectProps> = () => {
         </div>
       </section>
         </WavyBackground>
+
+       
+
+        <WhatsAppIcon/>
+       
       </main>
      
 
